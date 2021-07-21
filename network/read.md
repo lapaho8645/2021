@@ -1,3 +1,6 @@
+[Netmanias.2010.02.10_Training_Material_for_Network_Engineer.pdf](https://github.com/lapaho8645/2021/files/6853796/Netmanias.2010.02.10_Training_Material_for_Network_Engineer.pdf)
+===========================================================================
+
 ## 목록
 
 > ### [1. 프로토콜](#프로토콜)
@@ -69,3 +72,15 @@
 * 신호를 재생하여 전달되는 거리를 증가
 #### Bridges
 * LAN과 LAN을 상호 연결 
+* MAC 주소를 조사하여 데이터링크층이 관리하는 패킷의 소스 주소와 목적지 주소를 보고 그 패킷을 통과시킬지를 판정해서 traffic을 filtering하는 기능과 데이터를 fowarding하는 기능
+#### Routers
+* 다른 기종간의 네트워크를 연결하는 역할을 하며 특히 LAN과 WAN을 연결하는 데 많이 사용
+* 트래픽이 가장 적은 경로를 찾아 목적지로 데이터를 전송하는 기능
+
+![image](https://user-images.githubusercontent.com/64197428/126450696-ee0e09f8-ae2f-47ec-bfc2-7cc60d1ac8e9.png)
+
+#### Hubs
+* 네트워크 장비와 장비를 UTP 케이블로 연결하기 위해 사용
+* Multiport Repeater
+* Dummy Hub (1계층 장비): 허브에 전달되는 데이터를 연결된 모든 컴퓨터로 전달하며 이 떄 허브에 연결된 다른 컴퓨터들은 데이터 전송이 끝날 때까지 통신할 수 없다. 따라서 포트 수가 증가할 수록 트랙픽이 발생 
+* Switching Hub (2계층 장비) : 연결된 포트들을 1:1로 연결해주는 통로가 제공되어 포트를 스위칭해서 목적지에만 전달한다.
