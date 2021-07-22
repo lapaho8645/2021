@@ -8,6 +8,7 @@
 > ### [3. TCP/IP Architecture](#tcpip-architecture)
 > ### [4. 포트와 소켓](#포트와-소켓)
 > ### [5. Internetworking Device](#internetworking-device)
+> ### [6. Ethernet](#ethernet)
 
 ## 프로토콜
 * 컴퓨터나 통신 장비 사이에서 메시지를 주고 받기 위해 설계된 일련의 규칙 체계
@@ -108,4 +109,12 @@
 * Preamble : 송/수신 속도를 일치시키기 위해 비트 동기화를 맞추는 것
 * SFD(Starting Frame Delimiter) : 수신자에게 데이터가 이어짐을 알려주기 위한 것으로 프레임의 시작을 알리는 필드
 * Destination address/Source Address : 물리적 주소로 어떤 이더넷에 있는 어떤 노드도 유일한 주소를 가진다. Destination Address는 도착 노드의 고유 주소이고, SOurce Address는 전송 노드의 고유 주소이다.
-* Ether Type : 
+* Ether Type : 도착한    상위 계층의 네트워크 프로토콜의 데이터 형식을 확인하고 패킷을 어떻게 처리할 것인지를 결정하는 데 사용한다. 즉, 상위 계층 프로토콜의 종류를 표시하는 데 사용한다.
+* FCS(Frame Check Sequence) : 전송시 에러를 체크
+#### Multiplexing/Demultiplexing
+* Multiplexing : 소켓을 통해 데이터를 전달받아 데이터를 모으고, 이를 세그먼트 단위로 묶어 생성하기 위해 세그먼트 앞에 헤더를 붙여 캡슐화하고, 이 세그먼트들은 네트워크 계층으로 내려보내는 작업
+* Demultiplexing : 트랜스포트 계층에서 세그먼트의 데이터를 올바른 소켓으로 전달하는 작업
+#### Half Duplex/Full Duplex
+* Half Duplex : 송신과 수신을 한번씩 번갈아 가며 교대로 하는 방식으로 전송 중에는 수신할 수 없다.
+* Full Deplex : 송신과 수신을 동시에 하는 방식으로 통신로를 분산하여 2배의 데이터 전송속도를 가진다.
+#### 
