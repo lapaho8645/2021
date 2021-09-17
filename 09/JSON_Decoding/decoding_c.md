@@ -259,19 +259,7 @@ int main(int argc, char *argv[])
                         break;
         }while(1);
 
-//      while(bytes = read(sock, buf, READLEN) > 0){
-//                      sprintf(line, "%s%s", line, buf);
-//                      printf("%d\n\n", bytes);
-//                      memset(buf, 0, sizeof(buf));
-//      }
 
-
-// printf("%s ", line);
-//json_t *root = load_json(line);
-//if(root){
-//      print_json(root);
-//      json_decref(root);
-//}
 printf("\n");
 
 close(sock);
