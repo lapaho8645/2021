@@ -6,7 +6,6 @@ void *memcpy(void *dest, const void *src, size_t byte);
 
 자료형에 상관 없이 지정한 byte 수만큼 복사 (문자 배열, 구조체,,,)
 
-문자열 끝의 NULL을 복사해주지 않기 때문에 
 ## strcpy
 ```c
 char *strcpy(char *dest, const char *src);
