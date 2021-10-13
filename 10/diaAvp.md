@@ -18,3 +18,6 @@ The following values are defined:
 > MODIFICATION (2)
 > This value is used to indicate that an existing subsession is being modified
 #### Subsession-Enforcement-Info
+## CCR-T
+![image](https://user-images.githubusercontent.com/64197428/137101006-d2ef26bd-482c-4a53-8b3c-aa1c1a37b7ec.png)
+
