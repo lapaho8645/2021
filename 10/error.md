@@ -1,7 +1,7 @@
 ## Unable to open swp file for "filename", recovery impossible
 파일을 열 때마다 해당 오류 발생
 
-특정 파일 시스템이 100%로 꽉 차서 발생한 문제로 불필요한 파일을 삭제해줘야한다.
+메모리 공간이 부족하거나 편집 이력이 있었던 파일의 스왑 파일을 열지 못하여 발생하는 문제
 
 ![image](https://user-images.githubusercontent.com/64197428/139016409-9e614e91-7004-41c1-8022-b8da9a82c459.png)
 #### 해결 방안
