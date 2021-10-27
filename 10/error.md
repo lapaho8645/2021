@@ -1,4 +1,4 @@
-## Unable to open swp file for "filename", recovery impossible
+## Unable to open swap file for "filename", recovery impossible
 파일을 열 때마다 해당 오류 발생
 
 메모리 공간이 부족하거나 편집 이력이 있었던 파일의 스왑 파일을 열지 못하여 발생하는 문제
